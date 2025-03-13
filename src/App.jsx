@@ -1,12 +1,34 @@
-import BoasVindas from "./components/BoasVindas";
+/* import BoasVindas from "./components/BoasVindas";
 import { CardButton } from "./components/CardButton";
 import { CardDefault } from "./components/Card";
 import { CardTwoButtons } from "./components/CardTwoButtons";
-import { Aluno, Turma } from "./components/Classe";
+import { Aluno, Turma } from "./components/Classe";*/
+import Perfil from "./components/Perfil";
+import PerfilButton from "./PerfilButton";
 
 const App = () => {
   return (
     <>
+    <Perfil> 
+      <PerfilButton 
+      titulo={"Github"} 
+      link={"https://github.com/martinpereztovar/react-introducao"} 
+      />
+      <PerfilButton 
+      titulo={"LinkedIn"} 
+      link={"https://github.com/martinpereztovar/react-introducao"} 
+      />
+      <PerfilButton 
+      titulo={"Youtube"} 
+      link={"https://github.com/martinpereztovar/react-introducao"} 
+      />
+      <PerfilButton 
+      titulo={"Instagram"} 
+      link={"https://github.com/martinpereztovar/react-introducao"} 
+      />
+    </Perfil>
+    </>
+    /*<>
       <BoasVindas
         nome="Marcos"
         turma="FS22"
@@ -49,7 +71,7 @@ const App = () => {
        titulo={"Meu titulo"}
        descricao={"lorem ipsum dolor"}
       />
-    </>
+    </>*/
   );
 }
 
